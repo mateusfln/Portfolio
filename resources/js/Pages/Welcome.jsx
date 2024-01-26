@@ -2,6 +2,8 @@ import NavBar from '@/Components/NavBar';
 import { Link, Head } from '@inertiajs/react';
 import ProfilePic from '../../../public/images/profile-pic.png'
 import SobreMim from '@/Components/SobreMim';
+import Projetos from '@/Components/Projetos';
+import BaixarCV from '@/Components/BaixarCV';
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     return (
@@ -21,11 +23,11 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
             </div>
 
             <div id='projetos' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-zinc-300 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-                    Projetos                
+                    <Projetos/>                
             </div>
 
-            <div id='contato' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-zinc-400 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-                    Contato                
+            <div id='baixarcv' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center bg-zinc-400 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+                    <BaixarCV/>                
             </div>
             
 

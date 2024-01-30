@@ -21,7 +21,7 @@ const SobreMim = () => {
 
   return (
     <div className="flex flex-wrap items-center justify-center">
-      <div className='flex flex-wrap justify-center'>
+      <div className='flex flex-wrap justify-center mb-10'>
         {texto}
         
       </div>

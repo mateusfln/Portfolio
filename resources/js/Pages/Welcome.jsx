@@ -31,6 +31,10 @@ export default function Welcome() {
             <div id='baixarcv' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center selection:bg-red-500 selection:text-white">
                     <BaixarCV/>                
             </div>
+
+            <div id='baixarcv' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center selection:bg-red-500 selection:text-white">
+                    how to reach me <br/> fazer um formulario para envio de email para o meu email <br/> e fazer alguns icones com redes sociais como linkedin e github para linkar                
+            </div>
             
             </div>
             

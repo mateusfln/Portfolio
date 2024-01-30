@@ -8,7 +8,7 @@ import BaixarCV from '@/Components/BaixarCV';
 export default function Welcome() {
     return (
         
-        <div className=''>
+        <div>
             <NavBar/>
             
             <div id='mateusfln' className="flex-col sm:flex sm:justify-center sm:items-center h-screen bg-center bg-[#F3EEEA]">

@@ -3,6 +3,8 @@ import curriculoPagina1 from '../../../public//images/curriculoImg.png'
 import curriculoPagina2 from '../../../public//images/curriculoImg2.png'
 import curriculoPagina3 from '../../../public//images/curriculoImg3.png'
 import curriculopdf from '../../../public//images/curriculo.pdf'
+import downloadPdf from '../../../public//images/download-pdf.png'
+
 
 
 function BaixarCV() {
@@ -16,7 +18,11 @@ function BaixarCV() {
         <img src={curriculoPagina2} alt="imagem do curriculo" className='shadow-xl' />
         <img src={curriculoPagina3} alt="imagem do curriculo" className='shadow-xl' />
       </div>
-            <a className='py-10 px-20 rounded-md shadow-[#858484] shadow-lg bg-slate-200 h-24 text-center' href={curriculopdf} download>Baixar CV</a>
+
+            <a className='py-10 px-20 rounded-md shadow-[#858484] shadow-lg bg-slate-200 h-24 text-center items-center scale-100 hover:scale-105 duration-300 flex gap-5' href={curriculopdf} download>
+              <img className='h-10 w-10' src={downloadPdf} alt="imagem download" />
+              <label>Faça Download clicando aqui</label>  
+            </a>
      
     </div>
     </div>

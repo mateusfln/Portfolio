@@ -14,8 +14,8 @@ export default function Welcome() {
         <div id='mateusfln'>
             <NavBar/>
 
-            <div style={{backgroundImage: `url(${pattern})`}} className="flex-col sm:flex sm:justify-center sm:items-center h-1/2 bg-fixed bg-repeat p-10 ">
-                    <img className='h-72 scale-100 hover:scale-105 ease-in duration-150' src={ProfilePic} alt="imagem de perfil" />
+            <div style={{backgroundImage: `url(${pattern})`}} className="flex-col sm:flex sm:justify-center sm:items-center h-1/2 bg-fixed bg-repeat p-10">
+                    <img className='h-72 scale-100 hover:scale-105 ease-in duration-150 shadow-2xl rounded-full' src={ProfilePic} alt="imagem de perfil" />
                     <h1 className='text-5xl font-bold text-amber-50 mt-4'>Mateusfln</h1>
                     <h1 className='text-xl font-thin mt-4 text-amber-50'>Full-stack Developer</h1>                 
             </div>

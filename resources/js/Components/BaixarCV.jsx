@@ -13,7 +13,7 @@ function BaixarCV() {
     <div className='flex flex-col gap-10 mt-5'>
     <label className='font-bold text-2xl text-center' >Gostaria de obter meu currículo?</label>
 
-      <div className='overflow-y-scroll h-96'>
+      <div className='overflow-y-scroll h-96 shadow-lg rounded-md'>
         <img src={curriculoPagina1} alt="imagem do curriculo" className='shadow-xl' />
         <img src={curriculoPagina2} alt="imagem do curriculo" className='shadow-xl' />
         <img src={curriculoPagina3} alt="imagem do curriculo" className='shadow-xl' />

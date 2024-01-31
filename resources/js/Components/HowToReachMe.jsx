@@ -29,7 +29,7 @@ function HowToReachMe() {
             <h1 className='items-center text-center'>ou entre em contato via email</h1>
             <input className='rounded-lg my-2 shadow-md border-none' type='email' name='user_email' placeholder='Digite seu email' />
             <textarea className='rounded-lg max-h-24 min-h-24 shadow-md border-none overflow-y-scroll resize-none' type="text" name='message' placeholder='Escreva aqui a sua mensagem!' />
-            <input className='mx-20 mt-6 bg-blue-500 p-3 rounded-lg cursor-pointer scale-100 hover:scale-105 duration-300' type="submit" value="Enviar" />
+            <input className='mx-20 mt-6 bg-blue-500 p-3 rounded-lg cursor-pointer scale-100 hover:scale-105 duration-300 shadow-lg' type="submit" value="Enviar" />
         </div>
     </form>
   )

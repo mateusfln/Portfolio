@@ -4,7 +4,7 @@ function NavBar() {
     return (
 
 
-        <nav className='flex justify-between bg-[#3E3232] top-0 z-10 sticky'>
+        <nav className='flex justify-between bg-[#3e3232] top-0 z-10 sticky bg-opacity-95'>
             <a href='#mateusfln' className='text-2xl items-center p-4 text-amber-50 hover:text-amber-100 scale-100 hover:scale-105 ease-in duration-300'>Mateus Nunes</a>
             
 

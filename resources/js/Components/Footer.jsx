@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="container pt-9">
       <div className="mb-9 flex justify-center">
         {/*Linkedin*/}
-        <a target='_blank' href='https://linkedin.com/in/mateusfln' className="mr-9 text-neutral-800 dark:text-neutral-200">
+        <a target='_blank' href='https://linkedin.com/in/mateusfln' className="mr-9 text-neutral-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4"
@@ -18,7 +18,7 @@ export default function Footer() {
           </svg>
         </a>
         {/*Github*/}
-        <a target='_blank' href='https://github.com/mateusfln' className="text-neutral-800 dark:text-neutral-200">
+        <a target='_blank' href='https://github.com/mateusfln' className="text-neutral-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4"
@@ -33,11 +33,11 @@ export default function Footer() {
 
     {/* CopyRight*/}
     <div
-      className="bg-[#3E3232] p-4 text-center text-neutral-700">
+      className="bg-[#3E3232] p-4 text-center text-neutral-500">
       © 2023 Copyright:
       <a 
         target='_blank'
-        className="text-neutral-800 dark:text-neutral-400"
+        className="text-neutral-300"
         href="https://github.com/mateusfln"
       >Mateusfln</a>
     </div>

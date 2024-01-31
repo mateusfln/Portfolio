@@ -37,7 +37,7 @@ function Projetos() {
 
   return (
     <div>
-    <h1>filtro para pesquisa de tecnologias</h1>
+    {/* <h1>filtro para pesquisa de tecnologias</h1> */}
     <div className='flex flex-wrap items-center justify-center gap-20 p-16'>
             {projetoslist}
     </div>

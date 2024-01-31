@@ -5,20 +5,22 @@ import SobreMim from '@/Components/SobreMim';
 import Projetos from '@/Components/Projetos';
 import BaixarCV from '@/Components/BaixarCV';
 import pattern from '../../../public/images/pattern.jpg'
+import Footer from '@/Components/Footer';
+import HowToReachMe from '@/Components/HowToReachMe';
 
 export default function Welcome() {
     return (
         
-        <div>
+        <div id='mateusfln'>
             <NavBar/>
 
-            <div id='mateusfln' style={{backgroundImage: `url(${pattern})`}} className="flex-col sm:flex sm:justify-center sm:items-center h-1/2 bg-fixed bg-repeat p-10 ">
+            <div style={{backgroundImage: `url(${pattern})`}} className="flex-col sm:flex sm:justify-center sm:items-center h-1/2 bg-fixed bg-repeat p-10 ">
                     <img className='h-72 scale-100 hover:scale-105 ease-in duration-150' src={ProfilePic} alt="imagem de perfil" />
                     <h1 className='text-5xl font-bold text-amber-50 mt-4'>Mateusfln</h1>
-                    <h1 className='text-xl font-thin mt-4 text-amber-50'>Back-end Developer</h1>                 
+                    <h1 className='text-xl font-thin mt-4 text-amber-50'>Full-stack Developer</h1>                 
             </div>
 
-            <div className='bg-gradient-to-b from-[#EBE3D5] to-orange-200'>
+            <div className='bg-gradient-to-b from-[#EBE3D5] to-[#9A663E]'>
 
             <div id='sobremim' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center  selection:bg-red-500 selection:text-white">
                     <SobreMim/>                
@@ -32,11 +34,13 @@ export default function Welcome() {
                     <BaixarCV/>                
             </div>
 
-            <div id='baixarcv' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center selection:bg-red-500 selection:text-white">
-                    how to reach me <br/> fazer um formulario para envio de email para o meu email <br/> e fazer alguns icones com redes sociais como linkedin e github para linkar                
+            <div id='howtoreachme' className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center selection:bg-red-500 selection:text-white">
+               <HowToReachMe/>                
             </div>
             
             </div>
+
+            <Footer/>
             
            
 
